@@ -1,0 +1,20 @@
+{
+  "name": "sb1-5tphhcg8",
+  "type": "javascript",
+  "account_id": "38cca4a936033c10ed5d2e402c26a7de",
+  "workers_dev": true,
+  "compatibility_flags": [],
+  "env": {
+    "production": {
+      "name": "sb1-5tphhcg8",
+      "route": "sb1-5tphhcg8.527935352.workers.dev",
+      "zone_id": "9d1519fd2ae0b51852bb88bcd76981db"
+    }
+  },
+  "build": {
+    "command": "npm run build",
+    "directory": "./dist"
+  },
+  "main": "src/main.tsx",
+  "compatibility_date": "2025-05-14"
+}
