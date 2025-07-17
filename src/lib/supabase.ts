@@ -2,8 +2,8 @@ import { createClient } from '@supabase/supabase-js';
 import type { Product, DisplayCategory } from '../types';
 import { reverseCategoryMapping } from '../types';
 
-const supabaseUrl = "https://xyxuzaocdkhdxrzahgux.supabase.co";
-const supabaseAnonKey ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh5eHV6YW9jZGtoZHhyemFoZ3V4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk2MjY5MjcsImV4cCI6MjA2NTIwMjkyN30.rtEfL8ZLY4l1a5T7d8xP96134gutEd-B3XxeqAB2Phs";
+const supabaseUrl = "https://zcbheokdbpbxqbhfutap.supabase.co";
+const supabaseAnonKey ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpjYmhlb2tkYnBieHFiaGZ1dGFwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk2MjgwNzgsImV4cCI6MjA2NTIwNDA3OH0.q_JDillkT-drKfljrfw8SfiCchgXmXnskTzcxsfnhpU";
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
